@@ -2,7 +2,7 @@
 //  UIImage+CL.m
 //
 //  Created by ftxbird on 14-4-2.
-//  Copyright (c) 2014年 apple. All rights reserved.
+//  Copyright (c) 2014年 ftxbird. All rights reserved.
 //
 
 #import "UIImage+(CL).h"
