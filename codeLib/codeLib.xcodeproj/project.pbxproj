@@ -31,6 +31,8 @@
 		DEAADECC1942EEA100B5903C /* 动画.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADECB1942EEA100B5903C /* 动画.m */; };
 		DEAADECF1942F14900B5903C /* UIImage+Resizable.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADECE1942F14900B5903C /* UIImage+Resizable.m */; };
 		DEAADED21942F1F100B5903C /* 第三方框架目录.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADED11942F1F100B5903C /* 第三方框架目录.m */; };
+		DEAADED61942F8FD00B5903C /* URLSession上传(监控进度).m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADED51942F8FD00B5903C /* URLSession上传(监控进度).m */; };
+		DEAADED91942F9F400B5903C /* URLSession上传(普通上传).m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADED81942F9F400B5903C /* URLSession上传(普通上传).m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,7 +49,6 @@
 
 /* Begin PBXFileReference section */
 		DEAADE691942D0D400B5903C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DEAADE7A1942D1B000B5903C /* codeLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = codeLib; path = "/Users/jhng/Documents/IOS-Code-library/codeLib/build/Debug/codeLib"; sourceTree = "<absolute>"; };
 		DEAADE8F1942E06A00B5903C /* UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButton.m; sourceTree = "<group>"; };
 		DEAADE901942E06A00B5903C /* UIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageView.m; sourceTree = "<group>"; };
 		DEAADE911942E06A00B5903C /* UILable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILable.m; sourceTree = "<group>"; };
@@ -72,6 +73,9 @@
 		DEAADECD1942F14900B5903C /* UIImage+Resizable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resizable.h"; sourceTree = "<group>"; };
 		DEAADECE1942F14900B5903C /* UIImage+Resizable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resizable.m"; sourceTree = "<group>"; };
 		DEAADED11942F1F100B5903C /* 第三方框架目录.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "第三方框架目录.m"; sourceTree = "<group>"; };
+		DEAADED31942F89500B5903C /* codeLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = codeLib; path = "/Users/jhng/Documents/IOS-Code-library/codeLib/build/Debug/codeLib"; sourceTree = "<absolute>"; };
+		DEAADED51942F8FD00B5903C /* URLSession上传(监控进度).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "URLSession上传(监控进度).m"; sourceTree = "<group>"; };
+		DEAADED81942F9F400B5903C /* URLSession上传(普通上传).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "URLSession上传(普通上传).m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,8 @@
 			children = (
 				DEAADEA21942E0FE00B5903C /* 网络基础.m */,
 				DEAADEB41942EA0A00B5903C /* AFN总结.m */,
+				DEAADED51942F8FD00B5903C /* URLSession上传(监控进度).m */,
+				DEAADED81942F9F400B5903C /* URLSession上传(普通上传).m */,
 			);
 			path = "网络";
 			sourceTree = "<group>";
@@ -222,7 +228,7 @@
 			);
 			name = codeLib;
 			productName = codeLib;
-			productReference = DEAADE7A1942D1B000B5903C /* codeLib */;
+			productReference = DEAADED31942F89500B5903C /* codeLib */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -260,6 +266,7 @@
 				DEAADEC91942EE8900B5903C /* 分类目录.m in Sources */,
 				DEAADE961942E06A00B5903C /* UIImageView.m in Sources */,
 				DEAADEAF1942E7C400B5903C /* UItabBar.m in Sources */,
+				DEAADED61942F8FD00B5903C /* URLSession上传(监控进度).m in Sources */,
 				DEAADEB51942EA0A00B5903C /* AFN总结.m in Sources */,
 				DEAADECF1942F14900B5903C /* UIImage+Resizable.m in Sources */,
 				DEAADEC01942EC3000B5903C /* SDWebImage.m in Sources */,
@@ -268,6 +275,7 @@
 				DEAADEB21942E7E400B5903C /* UIPageController.m in Sources */,
 				DEAADE9D1942E08A00B5903C /* GCD.m in Sources */,
 				DEAADECC1942EEA100B5903C /* 动画.m in Sources */,
+				DEAADED91942F9F400B5903C /* URLSession上传(普通上传).m in Sources */,
 				DEAADE951942E06A00B5903C /* UIButton.m in Sources */,
 				DEAADEA91942E6C600B5903C /* UIAlertView.m in Sources */,
 				DEAADE991942E06A00B5903C /* UIScrollView.m in Sources */,
