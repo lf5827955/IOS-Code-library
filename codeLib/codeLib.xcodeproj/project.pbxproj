@@ -16,7 +16,12 @@
 		DEAADE9A1942E06A00B5903C /* UITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE941942E06A00B5903C /* UITableView.m */; };
 		DEAADE9D1942E08A00B5903C /* GCD.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE9C1942E08A00B5903C /* GCD.m */; };
 		DEAADEA01942E0A200B5903C /* Sqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE9F1942E0A200B5903C /* Sqlite.m */; };
-		DEAADEA31942E0FE00B5903C /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEA21942E0FE00B5903C /* Connection.m */; };
+		DEAADEA31942E0FE00B5903C /* 网络基础.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEA21942E0FE00B5903C /* 网络基础.m */; };
+		DEAADEA61942E4D300B5903C /* 多线程总结.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEA51942E4D300B5903C /* 多线程总结.m */; };
+		DEAADEA91942E6C600B5903C /* UIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEA81942E6C600B5903C /* UIAlertView.m */; };
+		DEAADEAC1942E77E00B5903C /* UICollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEAB1942E77E00B5903C /* UICollectionView.m */; };
+		DEAADEAF1942E7C400B5903C /* UItabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEAE1942E7C400B5903C /* UItabBar.m */; };
+		DEAADEB21942E7E400B5903C /* UIPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEB11942E7E400B5903C /* UIPageController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,7 +47,12 @@
 		DEAADE941942E06A00B5903C /* UITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableView.m; sourceTree = "<group>"; };
 		DEAADE9C1942E08A00B5903C /* GCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD.m; sourceTree = "<group>"; };
 		DEAADE9F1942E0A200B5903C /* Sqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sqlite.m; sourceTree = "<group>"; };
-		DEAADEA21942E0FE00B5903C /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		DEAADEA21942E0FE00B5903C /* 网络基础.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "网络基础.m"; sourceTree = "<group>"; };
+		DEAADEA51942E4D300B5903C /* 多线程总结.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "多线程总结.m"; sourceTree = "<group>"; };
+		DEAADEA81942E6C600B5903C /* UIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertView.m; sourceTree = "<group>"; };
+		DEAADEAB1942E77E00B5903C /* UICollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionView.m; sourceTree = "<group>"; };
+		DEAADEAE1942E7C400B5903C /* UItabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UItabBar.m; sourceTree = "<group>"; };
+		DEAADEB11942E7E400B5903C /* UIPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPageController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				DEAADE9C1942E08A00B5903C /* GCD.m */,
+				DEAADEA51942E4D300B5903C /* 多线程总结.m */,
 			);
 			path = "多线程";
 			sourceTree = "<group>";
@@ -103,7 +114,7 @@
 		DEAADE8D1942E06A00B5903C /* 网络 */ = {
 			isa = PBXGroup;
 			children = (
-				DEAADEA21942E0FE00B5903C /* Connection.m */,
+				DEAADEA21942E0FE00B5903C /* 网络基础.m */,
 			);
 			path = "网络";
 			sourceTree = "<group>";
@@ -112,11 +123,15 @@
 			isa = PBXGroup;
 			children = (
 				DEAADE8F1942E06A00B5903C /* UIButton.m */,
+				DEAADEB11942E7E400B5903C /* UIPageController.m */,
 				DEAADE901942E06A00B5903C /* UIImageView.m */,
 				DEAADE911942E06A00B5903C /* UILable.m */,
 				DEAADE921942E06A00B5903C /* UINavigation.m */,
 				DEAADE931942E06A00B5903C /* UIScrollView.m */,
 				DEAADE941942E06A00B5903C /* UITableView.m */,
+				DEAADEA81942E6C600B5903C /* UIAlertView.m */,
+				DEAADEAB1942E77E00B5903C /* UICollectionView.m */,
+				DEAADEAE1942E7C400B5903C /* UItabBar.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -172,14 +187,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEAADEA61942E4D300B5903C /* 多线程总结.m in Sources */,
 				DEAADE961942E06A00B5903C /* UIImageView.m in Sources */,
+				DEAADEAF1942E7C400B5903C /* UItabBar.m in Sources */,
 				DEAADE9A1942E06A00B5903C /* UITableView.m in Sources */,
+				DEAADEB21942E7E400B5903C /* UIPageController.m in Sources */,
 				DEAADE9D1942E08A00B5903C /* GCD.m in Sources */,
 				DEAADE951942E06A00B5903C /* UIButton.m in Sources */,
+				DEAADEA91942E6C600B5903C /* UIAlertView.m in Sources */,
 				DEAADE991942E06A00B5903C /* UIScrollView.m in Sources */,
-				DEAADEA31942E0FE00B5903C /* Connection.m in Sources */,
+				DEAADEA31942E0FE00B5903C /* 网络基础.m in Sources */,
 				DEAADEA01942E0A200B5903C /* Sqlite.m in Sources */,
 				DEAADE971942E06A00B5903C /* UILable.m in Sources */,
+				DEAADEAC1942E77E00B5903C /* UICollectionView.m in Sources */,
 				DEAADE981942E06A00B5903C /* UINavigation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
