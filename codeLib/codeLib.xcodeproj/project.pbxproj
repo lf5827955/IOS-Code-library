@@ -30,6 +30,7 @@
 		DEAADEC91942EE8900B5903C /* 分类目录.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEC81942EE8900B5903C /* 分类目录.m */; };
 		DEAADECC1942EEA100B5903C /* 动画.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADECB1942EEA100B5903C /* 动画.m */; };
 		DEAADECF1942F14900B5903C /* UIImage+Resizable.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADECE1942F14900B5903C /* UIImage+Resizable.m */; };
+		DEAADED21942F1F100B5903C /* 第三方框架目录.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADED11942F1F100B5903C /* 第三方框架目录.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +71,7 @@
 		DEAADECB1942EEA100B5903C /* 动画.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "动画.m"; sourceTree = "<group>"; };
 		DEAADECD1942F14900B5903C /* UIImage+Resizable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resizable.h"; sourceTree = "<group>"; };
 		DEAADECE1942F14900B5903C /* UIImage+Resizable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resizable.m"; sourceTree = "<group>"; };
+		DEAADED11942F1F100B5903C /* 第三方框架目录.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "第三方框架目录.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 			children = (
 				DEAADEBB1942EB3600B5903C /* FMDB.m */,
 				DEAADEBF1942EC3000B5903C /* SDWebImage.m */,
+				DEAADED11942F1F100B5903C /* 第三方框架目录.m */,
 			);
 			path = "第三方框架";
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				DEAADEA91942E6C600B5903C /* UIAlertView.m in Sources */,
 				DEAADE991942E06A00B5903C /* UIScrollView.m in Sources */,
 				DEAADEBC1942EB3600B5903C /* FMDB.m in Sources */,
+				DEAADED21942F1F100B5903C /* 第三方框架目录.m in Sources */,
 				DEAADEA31942E0FE00B5903C /* 网络基础.m in Sources */,
 				DEAADEA01942E0A200B5903C /* Sqlite.m in Sources */,
 				DEAADE971942E06A00B5903C /* UILable.m in Sources */,
