@@ -6,8 +6,3 @@
 //  Copyright (c) 2014年 ftxbird. All rights reserved.
 //
 
-#import "汇总开发中遇到的问题.h"
-
-@implementation __________
-
-@end

@@ -6,8 +6,3 @@
 //  Copyright (c) 2014年 ftxbird. All rights reserved.
 //
 
-#import "动画.h"
-
-@implementation __
-
-@end

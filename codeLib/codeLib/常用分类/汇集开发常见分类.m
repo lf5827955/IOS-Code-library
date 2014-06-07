@@ -6,8 +6,3 @@
 //  Copyright (c) 2014年 ftxbird. All rights reserved.
 //
 
-#import "汇集开发常见分类.h"
-
-@implementation ________
-
-@end
