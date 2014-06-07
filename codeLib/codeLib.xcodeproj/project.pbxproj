@@ -21,7 +21,7 @@
 		DEAADEA91942E6C600B5903C /* UIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEA81942E6C600B5903C /* UIAlertView.m */; };
 		DEAADEAC1942E77E00B5903C /* UICollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEAB1942E77E00B5903C /* UICollectionView.m */; };
 		DEAADEAF1942E7C400B5903C /* UItabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEAE1942E7C400B5903C /* UItabBar.m */; };
-		DEAADEB21942E7E400B5903C /* UIPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEB11942E7E400B5903C /* UIPageController.m */; };
+		DEAADEB21942E7E400B5903C /* UIPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEB11942E7E400B5903C /* UIPageControl.m */; };
 		DEAADEB51942EA0A00B5903C /* AFN综合使用.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEB41942EA0A00B5903C /* AFN综合使用.m */; };
 		DEAADEBC1942EB3600B5903C /* FMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEBB1942EB3600B5903C /* FMDB.m */; };
 		DEAADEC01942EC3000B5903C /* SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEBF1942EC3000B5903C /* SDWebImage.m */; };
@@ -65,7 +65,7 @@
 		DEAADEA81942E6C600B5903C /* UIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertView.m; sourceTree = "<group>"; };
 		DEAADEAB1942E77E00B5903C /* UICollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionView.m; sourceTree = "<group>"; };
 		DEAADEAE1942E7C400B5903C /* UItabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UItabBar.m; sourceTree = "<group>"; };
-		DEAADEB11942E7E400B5903C /* UIPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPageController.m; sourceTree = "<group>"; };
+		DEAADEB11942E7E400B5903C /* UIPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPageControl.m; sourceTree = "<group>"; };
 		DEAADEB41942EA0A00B5903C /* AFN综合使用.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFN综合使用.m"; sourceTree = "<group>"; };
 		DEAADEBB1942EB3600B5903C /* FMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDB.m; sourceTree = "<group>"; };
 		DEAADEBF1942EC3000B5903C /* SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImage.m; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				DEAADE8F1942E06A00B5903C /* UIButton.m */,
-				DEAADEB11942E7E400B5903C /* UIPageController.m */,
+				DEAADEB11942E7E400B5903C /* UIPageControl.m */,
 				DEAADE901942E06A00B5903C /* UIImageView.m */,
 				DEAADE911942E06A00B5903C /* UILable.m */,
 				DEAADE921942E06A00B5903C /* UINavigation.m */,
@@ -278,7 +278,7 @@
 				DEAADEC01942EC3000B5903C /* SDWebImage.m in Sources */,
 				DEAADE9A1942E06A00B5903C /* UITableView.m in Sources */,
 				DEAADEC31942EE4800B5903C /* 自定义控件.m in Sources */,
-				DEAADEB21942E7E400B5903C /* UIPageController.m in Sources */,
+				DEAADEB21942E7E400B5903C /* UIPageControl.m in Sources */,
 				DEAADE9D1942E08A00B5903C /* GCD.m in Sources */,
 				DEAADECC1942EEA100B5903C /* 动画.m in Sources */,
 				DEAADED91942F9F400B5903C /* URLSession上传(普通上传).m in Sources */,
