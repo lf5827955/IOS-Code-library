@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE1CA46919435572002E966B /* SQLite函数总结.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA46819435572002E966B /* SQLite函数总结.m */; };
 		DEAADE6A1942D0D400B5903C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAADE691942D0D400B5903C /* Foundation.framework */; };
 		DEAADE951942E06A00B5903C /* UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE8F1942E06A00B5903C /* UIButton.m */; };
 		DEAADE961942E06A00B5903C /* UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE901942E06A00B5903C /* UIImageView.m */; };
@@ -15,7 +16,7 @@
 		DEAADE991942E06A00B5903C /* UIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE931942E06A00B5903C /* UIScrollView.m */; };
 		DEAADE9A1942E06A00B5903C /* UITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE941942E06A00B5903C /* UITableView.m */; };
 		DEAADE9D1942E08A00B5903C /* GCD.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE9C1942E08A00B5903C /* GCD.m */; };
-		DEAADEA01942E0A200B5903C /* Sqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE9F1942E0A200B5903C /* Sqlite.m */; };
+		DEAADEA01942E0A200B5903C /* Sqlite基本使用.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE9F1942E0A200B5903C /* Sqlite基本使用.m */; };
 		DEAADEA31942E0FE00B5903C /* 网络基础.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEA21942E0FE00B5903C /* 网络基础.m */; };
 		DEAADEA61942E4D300B5903C /* 多线程总结.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEA51942E4D300B5903C /* 多线程总结.m */; };
 		DEAADEA91942E6C600B5903C /* UIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEA81942E6C600B5903C /* UIAlertView.m */; };
@@ -51,6 +52,7 @@
 /* Begin PBXFileReference section */
 		8E13BAED194333E00013E2C5 /* codeLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = codeLib; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E13BAF0194338E80013E2C5 /* UIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView.m; sourceTree = "<group>"; };
+		DE1CA46819435572002E966B /* SQLite函数总结.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SQLite函数总结.m"; sourceTree = "<group>"; };
 		DEAADE691942D0D400B5903C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DEAADE8F1942E06A00B5903C /* UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButton.m; sourceTree = "<group>"; };
 		DEAADE901942E06A00B5903C /* UIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageView.m; sourceTree = "<group>"; };
@@ -59,7 +61,7 @@
 		DEAADE931942E06A00B5903C /* UIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScrollView.m; sourceTree = "<group>"; };
 		DEAADE941942E06A00B5903C /* UITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableView.m; sourceTree = "<group>"; };
 		DEAADE9C1942E08A00B5903C /* GCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD.m; sourceTree = "<group>"; };
-		DEAADE9F1942E0A200B5903C /* Sqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sqlite.m; sourceTree = "<group>"; };
+		DEAADE9F1942E0A200B5903C /* Sqlite基本使用.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Sqlite基本使用.m"; sourceTree = "<group>"; };
 		DEAADEA21942E0FE00B5903C /* 网络基础.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "网络基础.m"; sourceTree = "<group>"; };
 		DEAADEA51942E4D300B5903C /* 多线程总结.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "多线程总结.m"; sourceTree = "<group>"; };
 		DEAADEA81942E6C600B5903C /* UIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertView.m; sourceTree = "<group>"; };
@@ -138,7 +140,8 @@
 		DEAADE8C1942E06A00B5903C /* 数据库 */ = {
 			isa = PBXGroup;
 			children = (
-				DEAADE9F1942E0A200B5903C /* Sqlite.m */,
+				DEAADE9F1942E0A200B5903C /* Sqlite基本使用.m */,
+				DE1CA46819435572002E966B /* SQLite函数总结.m */,
 			);
 			path = "数据库";
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				DEAADEA61942E4D300B5903C /* 多线程总结.m in Sources */,
 				DEAADEC91942EE8900B5903C /* 分类目录.m in Sources */,
 				DEAADE961942E06A00B5903C /* UIImageView.m in Sources */,
+				DE1CA46919435572002E966B /* SQLite函数总结.m in Sources */,
 				DEAADEAF1942E7C400B5903C /* UItabBar.m in Sources */,
 				DEAADED61942F8FD00B5903C /* URLSession上传(监控进度).m in Sources */,
 				DEAADEB51942EA0A00B5903C /* AFN综合使用.m in Sources */,
@@ -289,7 +293,7 @@
 				DEAADEDC1942FB7600B5903C /* URLSession下载.m in Sources */,
 				DEAADED21942F1F100B5903C /* 第三方框架目录.m in Sources */,
 				DEAADEA31942E0FE00B5903C /* 网络基础.m in Sources */,
-				DEAADEA01942E0A200B5903C /* Sqlite.m in Sources */,
+				DEAADEA01942E0A200B5903C /* Sqlite基本使用.m in Sources */,
 				DEAADE971942E06A00B5903C /* UILable.m in Sources */,
 				DEAADEAC1942E77E00B5903C /* UICollectionView.m in Sources */,
 				DEAADE981942E06A00B5903C /* UINavigation.m in Sources */,
