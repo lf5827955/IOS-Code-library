@@ -22,7 +22,7 @@
 		DEAADEAC1942E77E00B5903C /* UICollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEAB1942E77E00B5903C /* UICollectionView.m */; };
 		DEAADEAF1942E7C400B5903C /* UItabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEAE1942E7C400B5903C /* UItabBar.m */; };
 		DEAADEB21942E7E400B5903C /* UIPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEB11942E7E400B5903C /* UIPageController.m */; };
-		DEAADEB51942EA0A00B5903C /* AFN总结.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEB41942EA0A00B5903C /* AFN总结.m */; };
+		DEAADEB51942EA0A00B5903C /* AFN综合使用.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEB41942EA0A00B5903C /* AFN综合使用.m */; };
 		DEAADEBC1942EB3600B5903C /* FMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEBB1942EB3600B5903C /* FMDB.m */; };
 		DEAADEC01942EC3000B5903C /* SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEBF1942EC3000B5903C /* SDWebImage.m */; };
 		DEAADEC31942EE4800B5903C /* 自定义控件.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEC21942EE4800B5903C /* 自定义控件.m */; };
@@ -33,6 +33,7 @@
 		DEAADED21942F1F100B5903C /* 第三方框架目录.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADED11942F1F100B5903C /* 第三方框架目录.m */; };
 		DEAADED61942F8FD00B5903C /* URLSession上传(监控进度).m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADED51942F8FD00B5903C /* URLSession上传(监控进度).m */; };
 		DEAADED91942F9F400B5903C /* URLSession上传(普通上传).m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADED81942F9F400B5903C /* URLSession上传(普通上传).m */; };
+		DEAADEDC1942FB7600B5903C /* URLSession下载.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEDB1942FB7600B5903C /* URLSession下载.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,7 +64,7 @@
 		DEAADEAB1942E77E00B5903C /* UICollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionView.m; sourceTree = "<group>"; };
 		DEAADEAE1942E7C400B5903C /* UItabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UItabBar.m; sourceTree = "<group>"; };
 		DEAADEB11942E7E400B5903C /* UIPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPageController.m; sourceTree = "<group>"; };
-		DEAADEB41942EA0A00B5903C /* AFN总结.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFN总结.m"; sourceTree = "<group>"; };
+		DEAADEB41942EA0A00B5903C /* AFN综合使用.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFN综合使用.m"; sourceTree = "<group>"; };
 		DEAADEBB1942EB3600B5903C /* FMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDB.m; sourceTree = "<group>"; };
 		DEAADEBF1942EC3000B5903C /* SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImage.m; sourceTree = "<group>"; };
 		DEAADEC21942EE4800B5903C /* 自定义控件.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "自定义控件.m"; sourceTree = "<group>"; };
@@ -76,6 +77,7 @@
 		DEAADED31942F89500B5903C /* codeLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = codeLib; path = "/Users/jhng/Documents/IOS-Code-library/codeLib/build/Debug/codeLib"; sourceTree = "<absolute>"; };
 		DEAADED51942F8FD00B5903C /* URLSession上传(监控进度).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "URLSession上传(监控进度).m"; sourceTree = "<group>"; };
 		DEAADED81942F9F400B5903C /* URLSession上传(普通上传).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "URLSession上传(普通上传).m"; sourceTree = "<group>"; };
+		DEAADEDB1942FB7600B5903C /* URLSession下载.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "URLSession下载.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,9 +145,10 @@
 			isa = PBXGroup;
 			children = (
 				DEAADEA21942E0FE00B5903C /* 网络基础.m */,
-				DEAADEB41942EA0A00B5903C /* AFN总结.m */,
+				DEAADEB41942EA0A00B5903C /* AFN综合使用.m */,
 				DEAADED51942F8FD00B5903C /* URLSession上传(监控进度).m */,
 				DEAADED81942F9F400B5903C /* URLSession上传(普通上传).m */,
+				DEAADEDB1942FB7600B5903C /* URLSession下载.m */,
 			);
 			path = "网络";
 			sourceTree = "<group>";
@@ -267,7 +270,7 @@
 				DEAADE961942E06A00B5903C /* UIImageView.m in Sources */,
 				DEAADEAF1942E7C400B5903C /* UItabBar.m in Sources */,
 				DEAADED61942F8FD00B5903C /* URLSession上传(监控进度).m in Sources */,
-				DEAADEB51942EA0A00B5903C /* AFN总结.m in Sources */,
+				DEAADEB51942EA0A00B5903C /* AFN综合使用.m in Sources */,
 				DEAADECF1942F14900B5903C /* UIImage+Resizable.m in Sources */,
 				DEAADEC01942EC3000B5903C /* SDWebImage.m in Sources */,
 				DEAADE9A1942E06A00B5903C /* UITableView.m in Sources */,
@@ -280,6 +283,7 @@
 				DEAADEA91942E6C600B5903C /* UIAlertView.m in Sources */,
 				DEAADE991942E06A00B5903C /* UIScrollView.m in Sources */,
 				DEAADEBC1942EB3600B5903C /* FMDB.m in Sources */,
+				DEAADEDC1942FB7600B5903C /* URLSession下载.m in Sources */,
 				DEAADED21942F1F100B5903C /* 第三方框架目录.m in Sources */,
 				DEAADEA31942E0FE00B5903C /* 网络基础.m in Sources */,
 				DEAADEA01942E0A200B5903C /* Sqlite.m in Sources */,
