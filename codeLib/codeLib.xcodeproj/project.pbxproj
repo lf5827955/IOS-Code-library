@@ -27,8 +27,9 @@
 		DEAADEC01942EC3000B5903C /* SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEBF1942EC3000B5903C /* SDWebImage.m */; };
 		DEAADEC31942EE4800B5903C /* 自定义控件.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEC21942EE4800B5903C /* 自定义控件.m */; };
 		DEAADEC61942EE6800B5903C /* 汇总开发中遇到的问题.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEC51942EE6800B5903C /* 汇总开发中遇到的问题.m */; };
-		DEAADEC91942EE8900B5903C /* 汇集开发常见分类.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEC81942EE8900B5903C /* 汇集开发常见分类.m */; };
+		DEAADEC91942EE8900B5903C /* 分类目录.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEC81942EE8900B5903C /* 分类目录.m */; };
 		DEAADECC1942EEA100B5903C /* 动画.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADECB1942EEA100B5903C /* 动画.m */; };
+		DEAADECF1942F14900B5903C /* UIImage+Resizable.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADECE1942F14900B5903C /* UIImage+Resizable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,8 +66,10 @@
 		DEAADEBF1942EC3000B5903C /* SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImage.m; sourceTree = "<group>"; };
 		DEAADEC21942EE4800B5903C /* 自定义控件.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "自定义控件.m"; sourceTree = "<group>"; };
 		DEAADEC51942EE6800B5903C /* 汇总开发中遇到的问题.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "汇总开发中遇到的问题.m"; sourceTree = "<group>"; };
-		DEAADEC81942EE8900B5903C /* 汇集开发常见分类.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "汇集开发常见分类.m"; sourceTree = "<group>"; };
+		DEAADEC81942EE8900B5903C /* 分类目录.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "分类目录.m"; sourceTree = "<group>"; };
 		DEAADECB1942EEA100B5903C /* 动画.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "动画.m"; sourceTree = "<group>"; };
+		DEAADECD1942F14900B5903C /* UIImage+Resizable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resizable.h"; sourceTree = "<group>"; };
+		DEAADECE1942F14900B5903C /* UIImage+Resizable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resizable.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,7 +170,9 @@
 		DEAADEB71942EAFF00B5903C /* 常用分类 */ = {
 			isa = PBXGroup;
 			children = (
-				DEAADEC81942EE8900B5903C /* 汇集开发常见分类.m */,
+				DEAADEC81942EE8900B5903C /* 分类目录.m */,
+				DEAADECD1942F14900B5903C /* UIImage+Resizable.h */,
+				DEAADECE1942F14900B5903C /* UIImage+Resizable.m */,
 			);
 			path = "常用分类";
 			sourceTree = "<group>";
@@ -249,10 +254,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEAADEA61942E4D300B5903C /* 多线程总结.m in Sources */,
-				DEAADEC91942EE8900B5903C /* 汇集开发常见分类.m in Sources */,
+				DEAADEC91942EE8900B5903C /* 分类目录.m in Sources */,
 				DEAADE961942E06A00B5903C /* UIImageView.m in Sources */,
 				DEAADEAF1942E7C400B5903C /* UItabBar.m in Sources */,
 				DEAADEB51942EA0A00B5903C /* AFN总结.m in Sources */,
+				DEAADECF1942F14900B5903C /* UIImage+Resizable.m in Sources */,
 				DEAADEC01942EC3000B5903C /* SDWebImage.m in Sources */,
 				DEAADE9A1942E06A00B5903C /* UITableView.m in Sources */,
 				DEAADEC31942EE4800B5903C /* 自定义控件.m in Sources */,
