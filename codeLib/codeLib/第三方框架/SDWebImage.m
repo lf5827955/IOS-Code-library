@@ -1,5 +1,5 @@
 //
-//  Connection.m
+//  SDWebImage.m
 //  codeLib
 //
 //  Created by ftxbird on 14-6-7.

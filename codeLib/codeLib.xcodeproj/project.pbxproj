@@ -22,6 +22,13 @@
 		DEAADEAC1942E77E00B5903C /* UICollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEAB1942E77E00B5903C /* UICollectionView.m */; };
 		DEAADEAF1942E7C400B5903C /* UItabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEAE1942E7C400B5903C /* UItabBar.m */; };
 		DEAADEB21942E7E400B5903C /* UIPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEB11942E7E400B5903C /* UIPageController.m */; };
+		DEAADEB51942EA0A00B5903C /* AFN总结.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEB41942EA0A00B5903C /* AFN总结.m */; };
+		DEAADEBC1942EB3600B5903C /* FMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEBB1942EB3600B5903C /* FMDB.m */; };
+		DEAADEC01942EC3000B5903C /* SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEBF1942EC3000B5903C /* SDWebImage.m */; };
+		DEAADEC31942EE4800B5903C /* 自定义控件.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEC21942EE4800B5903C /* 自定义控件.m */; };
+		DEAADEC61942EE6800B5903C /* 汇总开发中遇到的问题.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEC51942EE6800B5903C /* 汇总开发中遇到的问题.m */; };
+		DEAADEC91942EE8900B5903C /* 汇集开发常见分类.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEC81942EE8900B5903C /* 汇集开发常见分类.m */; };
+		DEAADECC1942EEA100B5903C /* 动画.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADECB1942EEA100B5903C /* 动画.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +60,13 @@
 		DEAADEAB1942E77E00B5903C /* UICollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionView.m; sourceTree = "<group>"; };
 		DEAADEAE1942E7C400B5903C /* UItabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UItabBar.m; sourceTree = "<group>"; };
 		DEAADEB11942E7E400B5903C /* UIPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPageController.m; sourceTree = "<group>"; };
+		DEAADEB41942EA0A00B5903C /* AFN总结.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFN总结.m"; sourceTree = "<group>"; };
+		DEAADEBB1942EB3600B5903C /* FMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDB.m; sourceTree = "<group>"; };
+		DEAADEBF1942EC3000B5903C /* SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImage.m; sourceTree = "<group>"; };
+		DEAADEC21942EE4800B5903C /* 自定义控件.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "自定义控件.m"; sourceTree = "<group>"; };
+		DEAADEC51942EE6800B5903C /* 汇总开发中遇到的问题.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "汇总开发中遇到的问题.m"; sourceTree = "<group>"; };
+		DEAADEC81942EE8900B5903C /* 汇集开发常见分类.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "汇集开发常见分类.m"; sourceTree = "<group>"; };
+		DEAADECB1942EEA100B5903C /* 动画.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "动画.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +100,11 @@
 		DEAADE6B1942D0D400B5903C /* codeLib */ = {
 			isa = PBXGroup;
 			children = (
+				DEAADEBD1942EB9A00B5903C /* 自定义控件 */,
+				DEAADEB91942EB2600B5903C /* 第三方框架 */,
+				DEAADEB61942EAFF00B5903C /* 常见错误 */,
+				DEAADEB71942EAFF00B5903C /* 常用分类 */,
+				DEAADEB81942EAFF00B5903C /* 动画 */,
 				DEAADE8B1942E06A00B5903C /* 多线程 */,
 				DEAADE8C1942E06A00B5903C /* 数据库 */,
 				DEAADE8D1942E06A00B5903C /* 网络 */,
@@ -115,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				DEAADEA21942E0FE00B5903C /* 网络基础.m */,
+				DEAADEB41942EA0A00B5903C /* AFN总结.m */,
 			);
 			path = "网络";
 			sourceTree = "<group>";
@@ -134,6 +154,47 @@
 				DEAADEAE1942E7C400B5903C /* UItabBar.m */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		DEAADEB61942EAFF00B5903C /* 常见错误 */ = {
+			isa = PBXGroup;
+			children = (
+				DEAADEC51942EE6800B5903C /* 汇总开发中遇到的问题.m */,
+			);
+			path = "常见错误";
+			sourceTree = "<group>";
+		};
+		DEAADEB71942EAFF00B5903C /* 常用分类 */ = {
+			isa = PBXGroup;
+			children = (
+				DEAADEC81942EE8900B5903C /* 汇集开发常见分类.m */,
+			);
+			path = "常用分类";
+			sourceTree = "<group>";
+		};
+		DEAADEB81942EAFF00B5903C /* 动画 */ = {
+			isa = PBXGroup;
+			children = (
+				DEAADECB1942EEA100B5903C /* 动画.m */,
+			);
+			path = "动画";
+			sourceTree = "<group>";
+		};
+		DEAADEB91942EB2600B5903C /* 第三方框架 */ = {
+			isa = PBXGroup;
+			children = (
+				DEAADEBB1942EB3600B5903C /* FMDB.m */,
+				DEAADEBF1942EC3000B5903C /* SDWebImage.m */,
+			);
+			path = "第三方框架";
+			sourceTree = "<group>";
+		};
+		DEAADEBD1942EB9A00B5903C /* 自定义控件 */ = {
+			isa = PBXGroup;
+			children = (
+				DEAADEC21942EE4800B5903C /* 自定义控件.m */,
+			);
+			path = "自定义控件";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,19 +249,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEAADEA61942E4D300B5903C /* 多线程总结.m in Sources */,
+				DEAADEC91942EE8900B5903C /* 汇集开发常见分类.m in Sources */,
 				DEAADE961942E06A00B5903C /* UIImageView.m in Sources */,
 				DEAADEAF1942E7C400B5903C /* UItabBar.m in Sources */,
+				DEAADEB51942EA0A00B5903C /* AFN总结.m in Sources */,
+				DEAADEC01942EC3000B5903C /* SDWebImage.m in Sources */,
 				DEAADE9A1942E06A00B5903C /* UITableView.m in Sources */,
+				DEAADEC31942EE4800B5903C /* 自定义控件.m in Sources */,
 				DEAADEB21942E7E400B5903C /* UIPageController.m in Sources */,
 				DEAADE9D1942E08A00B5903C /* GCD.m in Sources */,
+				DEAADECC1942EEA100B5903C /* 动画.m in Sources */,
 				DEAADE951942E06A00B5903C /* UIButton.m in Sources */,
 				DEAADEA91942E6C600B5903C /* UIAlertView.m in Sources */,
 				DEAADE991942E06A00B5903C /* UIScrollView.m in Sources */,
+				DEAADEBC1942EB3600B5903C /* FMDB.m in Sources */,
 				DEAADEA31942E0FE00B5903C /* 网络基础.m in Sources */,
 				DEAADEA01942E0A200B5903C /* Sqlite.m in Sources */,
 				DEAADE971942E06A00B5903C /* UILable.m in Sources */,
 				DEAADEAC1942E77E00B5903C /* UICollectionView.m in Sources */,
 				DEAADE981942E06A00B5903C /* UINavigation.m in Sources */,
+				DEAADEC61942EE6800B5903C /* 汇总开发中遇到的问题.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
