@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		DEAADE6A1942D0D400B5903C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAADE691942D0D400B5903C /* Foundation.framework */; };
-		DEAADE791942D15F00B5903C /* UIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE781942D15F00B5903C /* UIScrollView.m */; };
-		DEAADE7D1942D21800B5903C /* UITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE7C1942D21800B5903C /* UITableView.m */; };
-		DEAADE801942D22B00B5903C /* UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE7F1942D22B00B5903C /* UIButton.m */; };
-		DEAADE831942D27B00B5903C /* UILable.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE821942D27B00B5903C /* UILable.m */; };
-		DEAADE861942D2AD00B5903C /* UINavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE851942D2AD00B5903C /* UINavigation.m */; };
-		DEAADE891942D2CA00B5903C /* UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE881942D2CA00B5903C /* UIImageView.m */; };
+		DEAADE951942E06A00B5903C /* UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE8F1942E06A00B5903C /* UIButton.m */; };
+		DEAADE961942E06A00B5903C /* UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE901942E06A00B5903C /* UIImageView.m */; };
+		DEAADE971942E06A00B5903C /* UILable.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE911942E06A00B5903C /* UILable.m */; };
+		DEAADE981942E06A00B5903C /* UINavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE921942E06A00B5903C /* UINavigation.m */; };
+		DEAADE991942E06A00B5903C /* UIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE931942E06A00B5903C /* UIScrollView.m */; };
+		DEAADE9A1942E06A00B5903C /* UITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE941942E06A00B5903C /* UITableView.m */; };
+		DEAADE9D1942E08A00B5903C /* GCD.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE9C1942E08A00B5903C /* GCD.m */; };
+		DEAADEA01942E0A200B5903C /* Sqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE9F1942E0A200B5903C /* Sqlite.m */; };
+		DEAADEA31942E0FE00B5903C /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEA21942E0FE00B5903C /* Connection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,13 +33,16 @@
 
 /* Begin PBXFileReference section */
 		DEAADE691942D0D400B5903C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DEAADE781942D15F00B5903C /* UIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScrollView.m; sourceTree = "<group>"; };
 		DEAADE7A1942D1B000B5903C /* codeLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = codeLib; path = "/Users/jhng/Documents/IOS-Code-library/codeLib/build/Debug/codeLib"; sourceTree = "<absolute>"; };
-		DEAADE7C1942D21800B5903C /* UITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableView.m; sourceTree = "<group>"; };
-		DEAADE7F1942D22B00B5903C /* UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButton.m; sourceTree = "<group>"; };
-		DEAADE821942D27B00B5903C /* UILable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILable.m; sourceTree = "<group>"; };
-		DEAADE851942D2AD00B5903C /* UINavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavigation.m; sourceTree = "<group>"; };
-		DEAADE881942D2CA00B5903C /* UIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageView.m; sourceTree = "<group>"; };
+		DEAADE8F1942E06A00B5903C /* UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButton.m; sourceTree = "<group>"; };
+		DEAADE901942E06A00B5903C /* UIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageView.m; sourceTree = "<group>"; };
+		DEAADE911942E06A00B5903C /* UILable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILable.m; sourceTree = "<group>"; };
+		DEAADE921942E06A00B5903C /* UINavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavigation.m; sourceTree = "<group>"; };
+		DEAADE931942E06A00B5903C /* UIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScrollView.m; sourceTree = "<group>"; };
+		DEAADE941942E06A00B5903C /* UITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableView.m; sourceTree = "<group>"; };
+		DEAADE9C1942E08A00B5903C /* GCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD.m; sourceTree = "<group>"; };
+		DEAADE9F1942E0A200B5903C /* Sqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sqlite.m; sourceTree = "<group>"; };
+		DEAADEA21942E0FE00B5903C /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,14 +76,49 @@
 		DEAADE6B1942D0D400B5903C /* codeLib */ = {
 			isa = PBXGroup;
 			children = (
-				DEAADE781942D15F00B5903C /* UIScrollView.m */,
-				DEAADE7C1942D21800B5903C /* UITableView.m */,
-				DEAADE7F1942D22B00B5903C /* UIButton.m */,
-				DEAADE821942D27B00B5903C /* UILable.m */,
-				DEAADE851942D2AD00B5903C /* UINavigation.m */,
-				DEAADE881942D2CA00B5903C /* UIImageView.m */,
+				DEAADE8B1942E06A00B5903C /* 多线程 */,
+				DEAADE8C1942E06A00B5903C /* 数据库 */,
+				DEAADE8D1942E06A00B5903C /* 网络 */,
+				DEAADE8E1942E06A00B5903C /* UI */,
 			);
 			path = codeLib;
+			sourceTree = "<group>";
+		};
+		DEAADE8B1942E06A00B5903C /* 多线程 */ = {
+			isa = PBXGroup;
+			children = (
+				DEAADE9C1942E08A00B5903C /* GCD.m */,
+			);
+			path = "多线程";
+			sourceTree = "<group>";
+		};
+		DEAADE8C1942E06A00B5903C /* 数据库 */ = {
+			isa = PBXGroup;
+			children = (
+				DEAADE9F1942E0A200B5903C /* Sqlite.m */,
+			);
+			path = "数据库";
+			sourceTree = "<group>";
+		};
+		DEAADE8D1942E06A00B5903C /* 网络 */ = {
+			isa = PBXGroup;
+			children = (
+				DEAADEA21942E0FE00B5903C /* Connection.m */,
+			);
+			path = "网络";
+			sourceTree = "<group>";
+		};
+		DEAADE8E1942E06A00B5903C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DEAADE8F1942E06A00B5903C /* UIButton.m */,
+				DEAADE901942E06A00B5903C /* UIImageView.m */,
+				DEAADE911942E06A00B5903C /* UILable.m */,
+				DEAADE921942E06A00B5903C /* UINavigation.m */,
+				DEAADE931942E06A00B5903C /* UIScrollView.m */,
+				DEAADE941942E06A00B5903C /* UITableView.m */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,12 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEAADE891942D2CA00B5903C /* UIImageView.m in Sources */,
-				DEAADE801942D22B00B5903C /* UIButton.m in Sources */,
-				DEAADE791942D15F00B5903C /* UIScrollView.m in Sources */,
-				DEAADE831942D27B00B5903C /* UILable.m in Sources */,
-				DEAADE7D1942D21800B5903C /* UITableView.m in Sources */,
-				DEAADE861942D2AD00B5903C /* UINavigation.m in Sources */,
+				DEAADE961942E06A00B5903C /* UIImageView.m in Sources */,
+				DEAADE9A1942E06A00B5903C /* UITableView.m in Sources */,
+				DEAADE9D1942E08A00B5903C /* GCD.m in Sources */,
+				DEAADE951942E06A00B5903C /* UIButton.m in Sources */,
+				DEAADE991942E06A00B5903C /* UIScrollView.m in Sources */,
+				DEAADEA31942E0FE00B5903C /* Connection.m in Sources */,
+				DEAADEA01942E0A200B5903C /* Sqlite.m in Sources */,
+				DEAADE971942E06A00B5903C /* UILable.m in Sources */,
+				DEAADE981942E06A00B5903C /* UINavigation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
