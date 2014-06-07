@@ -1,5 +1,5 @@
 //
-//  SDWebImage.m
+//  SDWebImage.m 使用总结
 //  codeLib
 //
 //  Created by ftxbird on 14-6-7.
