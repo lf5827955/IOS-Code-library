@@ -11,6 +11,7 @@
 		DE1CA46C1943571C002E966B /* NSOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA46B1943571C002E966B /* NSOperationQueue.m */; };
 		DE1CA46F19435737002E966B /* RunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA46E19435737002E966B /* RunLoop.m */; };
 		DE1CA47319435C3F002E966B /* 工具类目录.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA47219435C3F002E966B /* 工具类目录.m */; };
+		DE1CA47619436278002E966B /* GCD 代码.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA47519436278002E966B /* GCD 代码.m */; };
 		DEAADE6A1942D0D400B5903C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAADE691942D0D400B5903C /* Foundation.framework */; };
 		DEAADE951942E06A00B5903C /* UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE8F1942E06A00B5903C /* UIButton.m */; };
 		DEAADE961942E06A00B5903C /* UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE901942E06A00B5903C /* UIImageView.m */; };
@@ -59,6 +60,7 @@
 		DE1CA46B1943571C002E966B /* NSOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationQueue.m; sourceTree = "<group>"; };
 		DE1CA46E19435737002E966B /* RunLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoop.m; sourceTree = "<group>"; };
 		DE1CA47219435C3F002E966B /* 工具类目录.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "工具类目录.m"; sourceTree = "<group>"; };
+		DE1CA47519436278002E966B /* GCD 代码.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GCD 代码.m"; sourceTree = "<group>"; };
 		DEAADE691942D0D400B5903C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DEAADE8F1942E06A00B5903C /* UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButton.m; sourceTree = "<group>"; };
 		DEAADE901942E06A00B5903C /* UIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageView.m; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				DEAADEA51942E4D300B5903C /* 多线程总结.m */,
 				DE1CA46B1943571C002E966B /* NSOperationQueue.m */,
 				DE1CA46E19435737002E966B /* RunLoop.m */,
+				DE1CA47519436278002E966B /* GCD 代码.m */,
 			);
 			path = "多线程";
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				DEAADE971942E06A00B5903C /* UILable.m in Sources */,
 				DE1CA46C1943571C002E966B /* NSOperationQueue.m in Sources */,
 				DEAADEAC1942E77E00B5903C /* UICollectionView.m in Sources */,
+				DE1CA47619436278002E966B /* GCD 代码.m in Sources */,
 				DEAADE981942E06A00B5903C /* UINavigation.m in Sources */,
 				DE1CA46F19435737002E966B /* RunLoop.m in Sources */,
 				DEAADEC61942EE6800B5903C /* 汇总开发中遇到的问题.m in Sources */,
