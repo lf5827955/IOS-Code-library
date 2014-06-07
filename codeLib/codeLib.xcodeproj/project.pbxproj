@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEAADE6A1942D0D400B5903C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAADE691942D0D400B5903C /* Foundation.framework */; };
+		DEAADE791942D15F00B5903C /* UIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE781942D15F00B5903C /* UIScrollView.m */; };
+		DEAADE7D1942D21800B5903C /* UITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE7C1942D21800B5903C /* UITableView.m */; };
+		DEAADE801942D22B00B5903C /* UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE7F1942D22B00B5903C /* UIButton.m */; };
+		DEAADE831942D27B00B5903C /* UILable.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE821942D27B00B5903C /* UILable.m */; };
+		DEAADE861942D2AD00B5903C /* UINavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE851942D2AD00B5903C /* UINavigation.m */; };
+		DEAADE891942D2CA00B5903C /* UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE881942D2CA00B5903C /* UIImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DEAADE641942D0D400B5903C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DEAADE691942D0D400B5903C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DEAADE781942D15F00B5903C /* UIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScrollView.m; sourceTree = "<group>"; };
+		DEAADE7A1942D1B000B5903C /* codeLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = codeLib; path = "/Users/jhng/Documents/IOS-Code-library/codeLib/build/Debug/codeLib"; sourceTree = "<absolute>"; };
+		DEAADE7C1942D21800B5903C /* UITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableView.m; sourceTree = "<group>"; };
+		DEAADE7F1942D22B00B5903C /* UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButton.m; sourceTree = "<group>"; };
+		DEAADE821942D27B00B5903C /* UILable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILable.m; sourceTree = "<group>"; };
+		DEAADE851942D2AD00B5903C /* UINavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavigation.m; sourceTree = "<group>"; };
+		DEAADE881942D2CA00B5903C /* UIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEAADE631942D0D400B5903C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAADE6A1942D0D400B5903C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEAADE5D1942D0D400B5903C = {
+			isa = PBXGroup;
+			children = (
+				DEAADE6B1942D0D400B5903C /* codeLib */,
+				DEAADE681942D0D400B5903C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DEAADE681942D0D400B5903C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEAADE691942D0D400B5903C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEAADE6B1942D0D400B5903C /* codeLib */ = {
+			isa = PBXGroup;
+			children = (
+				DEAADE781942D15F00B5903C /* UIScrollView.m */,
+				DEAADE7C1942D21800B5903C /* UITableView.m */,
+				DEAADE7F1942D22B00B5903C /* UIButton.m */,
+				DEAADE821942D27B00B5903C /* UILable.m */,
+				DEAADE851942D2AD00B5903C /* UINavigation.m */,
+				DEAADE881942D2CA00B5903C /* UIImageView.m */,
+			);
+			path = codeLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEAADE651942D0D400B5903C /* codeLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAADE741942D0D400B5903C /* Build configuration list for PBXNativeTarget "codeLib" */;
+			buildPhases = (
+				DEAADE621942D0D400B5903C /* Sources */,
+				DEAADE631942D0D400B5903C /* Frameworks */,
+				DEAADE641942D0D400B5903C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = codeLib;
+			productName = codeLib;
+			productReference = DEAADE7A1942D1B000B5903C /* codeLib */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEAADE5E1942D0D400B5903C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ftxbird;
+			};
+			buildConfigurationList = DEAADE611942D0D400B5903C /* Build configuration list for PBXProject "codeLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DEAADE5D1942D0D400B5903C;
+			productRefGroup = DEAADE5D1942D0D400B5903C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEAADE651942D0D400B5903C /* codeLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEAADE621942D0D400B5903C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAADE891942D2CA00B5903C /* UIImageView.m in Sources */,
+				DEAADE801942D22B00B5903C /* UIButton.m in Sources */,
+				DEAADE791942D15F00B5903C /* UIScrollView.m in Sources */,
+				DEAADE831942D27B00B5903C /* UILable.m in Sources */,
+				DEAADE7D1942D21800B5903C /* UITableView.m in Sources */,
+				DEAADE861942D2AD00B5903C /* UINavigation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DEAADE721942D0D400B5903C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DEAADE731942D0D400B5903C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DEAADE751942D0D400B5903C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "codeLib/codeLib-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEAADE761942D0D400B5903C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "codeLib/codeLib-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEAADE611942D0D400B5903C /* Build configuration list for PBXProject "codeLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAADE721942D0D400B5903C /* Debug */,
+				DEAADE731942D0D400B5903C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEAADE741942D0D400B5903C /* Build configuration list for PBXNativeTarget "codeLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAADE751942D0D400B5903C /* Debug */,
+				DEAADE761942D0D400B5903C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEAADE5E1942D0D400B5903C /* Project object */;
+}
