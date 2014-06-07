@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DE1CA46919435572002E966B /* SQLite函数总结.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA46819435572002E966B /* SQLite函数总结.m */; };
+		DE1CA46C1943571C002E966B /* NSOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA46B1943571C002E966B /* NSOperationQueue.m */; };
+		DE1CA46F19435737002E966B /* RunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA46E19435737002E966B /* RunLoop.m */; };
 		DEAADE6A1942D0D400B5903C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAADE691942D0D400B5903C /* Foundation.framework */; };
 		DEAADE951942E06A00B5903C /* UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE8F1942E06A00B5903C /* UIButton.m */; };
 		DEAADE961942E06A00B5903C /* UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE901942E06A00B5903C /* UIImageView.m */; };
@@ -53,6 +55,8 @@
 		8E13BAED194333E00013E2C5 /* codeLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = codeLib; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E13BAF0194338E80013E2C5 /* UIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView.m; sourceTree = "<group>"; };
 		DE1CA46819435572002E966B /* SQLite函数总结.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SQLite函数总结.m"; sourceTree = "<group>"; };
+		DE1CA46B1943571C002E966B /* NSOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationQueue.m; sourceTree = "<group>"; };
+		DE1CA46E19435737002E966B /* RunLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoop.m; sourceTree = "<group>"; };
 		DEAADE691942D0D400B5903C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DEAADE8F1942E06A00B5903C /* UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButton.m; sourceTree = "<group>"; };
 		DEAADE901942E06A00B5903C /* UIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageView.m; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 			children = (
 				DEAADE9C1942E08A00B5903C /* GCD.m */,
 				DEAADEA51942E4D300B5903C /* 多线程总结.m */,
+				DE1CA46B1943571C002E966B /* NSOperationQueue.m */,
+				DE1CA46E19435737002E966B /* RunLoop.m */,
 			);
 			path = "多线程";
 			sourceTree = "<group>";
@@ -295,8 +301,10 @@
 				DEAADEA31942E0FE00B5903C /* 网络基础.m in Sources */,
 				DEAADEA01942E0A200B5903C /* Sqlite基本使用.m in Sources */,
 				DEAADE971942E06A00B5903C /* UILable.m in Sources */,
+				DE1CA46C1943571C002E966B /* NSOperationQueue.m in Sources */,
 				DEAADEAC1942E77E00B5903C /* UICollectionView.m in Sources */,
 				DEAADE981942E06A00B5903C /* UINavigation.m in Sources */,
+				DE1CA46F19435737002E966B /* RunLoop.m in Sources */,
 				DEAADEC61942EE6800B5903C /* 汇总开发中遇到的问题.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
