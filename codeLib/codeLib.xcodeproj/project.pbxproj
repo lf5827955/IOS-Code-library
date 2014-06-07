@@ -49,6 +49,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8E13BAED194333E00013E2C5 /* codeLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = codeLib; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E13BAF0194338E80013E2C5 /* UIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView.m; sourceTree = "<group>"; };
 		DEAADE691942D0D400B5903C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DEAADE8F1942E06A00B5903C /* UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButton.m; sourceTree = "<group>"; };
 		DEAADE901942E06A00B5903C /* UIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageView.m; sourceTree = "<group>"; };
@@ -74,7 +76,6 @@
 		DEAADECD1942F14900B5903C /* UIImage+(CL).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+(CL).h"; sourceTree = "<group>"; };
 		DEAADECE1942F14900B5903C /* UIImage+(CL).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+(CL).m"; sourceTree = "<group>"; };
 		DEAADED11942F1F100B5903C /* 第三方框架目录.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "第三方框架目录.m"; sourceTree = "<group>"; };
-		DEAADED31942F89500B5903C /* codeLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = codeLib; path = "/Users/jhng/Documents/IOS-Code-library/codeLib/build/Debug/codeLib"; sourceTree = "<absolute>"; };
 		DEAADED51942F8FD00B5903C /* URLSession上传(监控进度).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "URLSession上传(监控进度).m"; sourceTree = "<group>"; };
 		DEAADED81942F9F400B5903C /* URLSession上传(普通上传).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "URLSession上传(普通上传).m"; sourceTree = "<group>"; };
 		DEAADEDB1942FB7600B5903C /* URLSession下载.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "URLSession下载.m"; sourceTree = "<group>"; };
@@ -97,6 +98,7 @@
 			children = (
 				DEAADE6B1942D0D400B5903C /* codeLib */,
 				DEAADE681942D0D400B5903C /* Frameworks */,
+				8E13BAED194333E00013E2C5 /* codeLib */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +168,7 @@
 				DEAADEA81942E6C600B5903C /* UIAlertView.m */,
 				DEAADEAB1942E77E00B5903C /* UICollectionView.m */,
 				DEAADEAE1942E7C400B5903C /* UItabBar.m */,
+				8E13BAF0194338E80013E2C5 /* UIView.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -231,7 +234,7 @@
 			);
 			name = codeLib;
 			productName = codeLib;
-			productReference = DEAADED31942F89500B5903C /* codeLib */;
+			productReference = 8E13BAED194333E00013E2C5 /* codeLib */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
