@@ -1,14 +1,13 @@
 //
-//  UIImage+Extension.m
-//  01-QQ聊天布局
+//  UIImage+CL.m
 //
-//  Created by apple on 14-4-2.
-//  Copyright (c) 2014年 itcast. All rights reserved.
+//  Created by ftxbird on 14-4-2.
+//  Copyright (c) 2014年 apple. All rights reserved.
 //
 
-#import "UIImage+Extension.h"
+#import "UIImage+(CL).h"
 
-@implementation UIImage (Extension)
+@implementation UIImage (CL)
 /**
  *  返回一张可以随意拉伸不变形的图片
  *

@@ -1,13 +1,13 @@
 //
-//  UIImage+Resizable.h
+//  UIImage+CL.h
 //
 //
 //  Created by ftxbird on 14-4-2.
-//  Copyright (c) 2014年 itcast. All rights reserved.
+//  Copyright (c) 2014年 apple. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (Resizable)
+@interface UIImage (CL)
 + (UIImage *)resizableImage:(NSString *)name;
 @end
