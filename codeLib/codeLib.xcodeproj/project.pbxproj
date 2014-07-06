@@ -11,6 +11,7 @@
 		DE1CA46C1943571C002E966B /* NSOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA46B1943571C002E966B /* NSOperationQueue.m */; };
 		DE1CA46F19435737002E966B /* RunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA46E19435737002E966B /* RunLoop.m */; };
 		DE1CA47319435C3F002E966B /* 工具类目录.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA47219435C3F002E966B /* 工具类目录.m */; };
+		DE1CA47619436278002E966B /* GCD 代码.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1CA47519436278002E966B /* GCD 代码.m */; };
 		DEAADE6A1942D0D400B5903C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAADE691942D0D400B5903C /* Foundation.framework */; };
 		DEAADE951942E06A00B5903C /* UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE8F1942E06A00B5903C /* UIButton.m */; };
 		DEAADE961942E06A00B5903C /* UIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE901942E06A00B5903C /* UIImageView.m */; };
@@ -18,7 +19,7 @@
 		DEAADE981942E06A00B5903C /* UINavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE921942E06A00B5903C /* UINavigation.m */; };
 		DEAADE991942E06A00B5903C /* UIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE931942E06A00B5903C /* UIScrollView.m */; };
 		DEAADE9A1942E06A00B5903C /* UITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE941942E06A00B5903C /* UITableView.m */; };
-		DEAADE9D1942E08A00B5903C /* GCD.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE9C1942E08A00B5903C /* GCD.m */; };
+		DEAADE9D1942E08A00B5903C /* GCD简介.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE9C1942E08A00B5903C /* GCD简介.m */; };
 		DEAADEA01942E0A200B5903C /* Sqlite基本使用.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADE9F1942E0A200B5903C /* Sqlite基本使用.m */; };
 		DEAADEA31942E0FE00B5903C /* 网络基础.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEA21942E0FE00B5903C /* 网络基础.m */; };
 		DEAADEA61942E4D300B5903C /* 多线程总结.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAADEA51942E4D300B5903C /* 多线程总结.m */; };
@@ -59,6 +60,7 @@
 		DE1CA46B1943571C002E966B /* NSOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationQueue.m; sourceTree = "<group>"; };
 		DE1CA46E19435737002E966B /* RunLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoop.m; sourceTree = "<group>"; };
 		DE1CA47219435C3F002E966B /* 工具类目录.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "工具类目录.m"; sourceTree = "<group>"; };
+		DE1CA47519436278002E966B /* GCD 代码.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GCD 代码.m"; sourceTree = "<group>"; };
 		DEAADE691942D0D400B5903C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DEAADE8F1942E06A00B5903C /* UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButton.m; sourceTree = "<group>"; };
 		DEAADE901942E06A00B5903C /* UIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageView.m; sourceTree = "<group>"; };
@@ -66,7 +68,7 @@
 		DEAADE921942E06A00B5903C /* UINavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavigation.m; sourceTree = "<group>"; };
 		DEAADE931942E06A00B5903C /* UIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScrollView.m; sourceTree = "<group>"; };
 		DEAADE941942E06A00B5903C /* UITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableView.m; sourceTree = "<group>"; };
-		DEAADE9C1942E08A00B5903C /* GCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD.m; sourceTree = "<group>"; };
+		DEAADE9C1942E08A00B5903C /* GCD简介.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GCD简介.m"; sourceTree = "<group>"; };
 		DEAADE9F1942E0A200B5903C /* Sqlite基本使用.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Sqlite基本使用.m"; sourceTree = "<group>"; };
 		DEAADEA21942E0FE00B5903C /* 网络基础.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "网络基础.m"; sourceTree = "<group>"; };
 		DEAADEA51942E4D300B5903C /* 多线程总结.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "多线程总结.m"; sourceTree = "<group>"; };
@@ -146,10 +148,11 @@
 		DEAADE8B1942E06A00B5903C /* 多线程 */ = {
 			isa = PBXGroup;
 			children = (
-				DEAADE9C1942E08A00B5903C /* GCD.m */,
+				DEAADE9C1942E08A00B5903C /* GCD简介.m */,
 				DEAADEA51942E4D300B5903C /* 多线程总结.m */,
 				DE1CA46B1943571C002E966B /* NSOperationQueue.m */,
 				DE1CA46E19435737002E966B /* RunLoop.m */,
+				DE1CA47519436278002E966B /* GCD 代码.m */,
 			);
 			path = "多线程";
 			sourceTree = "<group>";
@@ -300,7 +303,7 @@
 				DEAADE9A1942E06A00B5903C /* UITableView.m in Sources */,
 				DEAADEC31942EE4800B5903C /* 自定义控件.m in Sources */,
 				DEAADEB21942E7E400B5903C /* UIPageControl.m in Sources */,
-				DEAADE9D1942E08A00B5903C /* GCD.m in Sources */,
+				DEAADE9D1942E08A00B5903C /* GCD简介.m in Sources */,
 				DEAADECC1942EEA100B5903C /* 动画.m in Sources */,
 				DEAADED91942F9F400B5903C /* URLSession上传(普通上传).m in Sources */,
 				DEAADE951942E06A00B5903C /* UIButton.m in Sources */,
@@ -315,6 +318,7 @@
 				DEAADE971942E06A00B5903C /* UILable.m in Sources */,
 				DE1CA46C1943571C002E966B /* NSOperationQueue.m in Sources */,
 				DEAADEAC1942E77E00B5903C /* UICollectionView.m in Sources */,
+				DE1CA47619436278002E966B /* GCD 代码.m in Sources */,
 				DEAADE981942E06A00B5903C /* UINavigation.m in Sources */,
 				DE1CA46F19435737002E966B /* RunLoop.m in Sources */,
 				DEAADEC61942EE6800B5903C /* 汇总开发中遇到的问题.m in Sources */,
